@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "ChunkFive";
+  src: local("ChunkFive"),
+       url("font/Chunkfive.otf") format("opentype");
+}
+
+body {
+  color:          sienna;
+  font-family:    "ChunkFive";
+  /*font-weight:  bold;*/
+}
+
+h1 {
+  text-align:     center;
+  font-size:      3em;
+  letter-spacing: 0.1em;
+}
+
+button {
+  background:     lightyellow;
+  color:          sienna;
+  font-family:    "ChunkFive";
+  width:          5em;
+  height:         2em;
+  font-size:      1.2em;
+}
+
+canvas, fieldset {
+  border:         1px solid black;
+  background:     lightyellow;
+  display:        block;
+  margin:         0 auto;
+}
+
+
+/*
+div#sales {
+	background-color: #d9d9d9;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	border: 1px solid #d9d9d9;
+}
+div.saleItem {
+	font-family: Verdana, Helvetica, sans-serif;
+	color: #434343;
+	padding: 10px;
+}
+div.saleItem:nth-child(2n) {
+	background-color: #fafafa;
+}
+*/
+

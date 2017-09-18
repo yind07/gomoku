@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Gomoku</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="gomoku.css">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="icon.ico" /> -->
+    <link rel="icon" type="image/x-icon" href="icon.ico" />
+    <!-- include JS libs ... -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <h1>Gomoku</h1>
+    <!-- <canvas id="board" width="800" height="600"> -->
+    <canvas id="board">
+      Make sure that your browser supports canvas!
+    </canvas>
+    <audio id="audio">
+      Make sure that your browser supports audio!
+    </audio>
+    
+    <fieldset>
+      <legend>Options</legend>
+      <button id="restart">Restart</button>
+      <!-- <label for="mouse_pointer">screenXY: &lt;TODO&gt;</label>
+      <a href="http://cn.bing.com" target="_blank">Bing</a>-->
+    </fieldset>
+    
+    <!-- JS program -->
+    <script src="gomoku-resource.js"></script>
+    <script src="gomoku-position.js"></script>
+    <script src="gomoku-board.js"></script>
+    <script src="gomoku-drawing.js"></script>
+  </body>
+</html>
